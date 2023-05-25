@@ -1,12 +1,17 @@
 import React from 'react';
 
+import quizApp from '../imagesAndFiles/project4.gif';
+import workday from '../imagesAndFiles/project5.gif';
+import weather from '../imagesAndFiles/project6.png';
+import task from '../imagesAndFiles/project7.png';
+
 export default function Project() {
   return (
     <div className="container pt-5 pb-5 mb-2">
       <div className="row justify-content-evenly my-4">
         <div className="col-md-5 text-center bg-secondary d-flex flex-column align-items-center justify-content-center">
           <div className="image-container m-2">
-            <img src="../../Assets/project4.gif" alt="" className="img-fluid" />
+            <img src={quizApp} alt="" className="img-fluid" />
           </div>
           <a
             href="https://fer-117.github.io/quizApp/"
@@ -22,7 +27,7 @@ export default function Project() {
 
         <div className="col-md-5 text-center bg-secondary d-flex flex-column align-items-center justify-content-center">
           <div className="image-container m-2">
-            <img src="../../Assets/project5.gif" alt="" className="img-fluid" />
+            <img src={workday} alt="" className="img-fluid" />
           </div>
           <a
             href="https://fer-117.github.io/workDay-Scheduler/"
@@ -40,7 +45,7 @@ export default function Project() {
       <div className="row justify-content-evenly my-4">
         <div className="col-md-5 text-center bg-secondary d-flex flex-column align-items-center justify-content-center">
           <div className="image-container m-2">
-            <img src="../../Assets/project6.png" alt="" className="img-fluid" />
+            <img src={weather} alt="" className="img-fluid" />
           </div>
           <a
             href="https://fer-117.github.io/weatherDashboard/"
@@ -56,7 +61,7 @@ export default function Project() {
 
         <div className="col-md-5 text-center bg-secondary d-flex flex-column align-items-center justify-content-center">
           <div className="image-container m-2">
-            <img src="../../Assets/project7.png" alt="" className="img-fluid" />
+            <img src={task} alt="" className="img-fluid" />
           </div>
           <a
             href="https://fathomless-caverns-42442.herokuapp.com/"
