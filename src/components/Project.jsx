@@ -4,6 +4,7 @@ import quizApp from '../imagesAndFiles/project4.gif';
 import workday from '../imagesAndFiles/project5.gif';
 import weather from '../imagesAndFiles/project6.png';
 import task from '../imagesAndFiles/project7.png';
+import finalProject from '../imagesAndFiles/finalProject.png';
 
 export default function Project() {
   return (
@@ -76,19 +77,19 @@ export default function Project() {
         </div>
       </div>
 
-      {/* <div className="row justify-content-evenly my-4">
+      <div className="row justify-content-evenly my-4">
         <div className="col-md-5 text-center bg-secondary d-flex flex-column align-items-center justify-content-center">
           <div className="image-container m-2">
-            <img src="../../Assets/" alt="" className="img-fluid" />
+            <img src={finalProject} alt="" className="img-fluid" />
           </div>
           <a
-            href="https://github.com/your-repository-link"
+            href="https://whispering-oasis-41573.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="d-flex flex-column align-items-center link-overlay text-decoration-none bg-dark rounded m-1"
           >
             <div className="overlay-bottom">
-              <p className="text-white p-1">Project 5</p>
+              <p className="text-white p-1">Final Project</p>
             </div>
           </a>
         </div>
@@ -108,7 +109,7 @@ export default function Project() {
             </div>
           </a>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
